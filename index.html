@@ -2,59 +2,45 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>BIO</title>
+        <title>My Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!--CSS Inline Style Sheet-->
-        <style>
-            /*Body Color Light Gray*/
-            body {
-                background-color: lightgrey;
-            }
-            /*make Header One  */
-            h1 {
-                color: white;
-                background-color: gray;
-                text-align: center;
-                margin-top: 15px;
-                margin-bottom: 15px;
-                font-size: 60px;
-                text-decoration: bold;
-            }
-
-            /*make Header 2 Red and Bold*/
-            h2{
-                color: darkred;
-                text-decoration: bold;
-                font-size: 30px;
-            }
-
-
-        </style>
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     </head>
     <body>
-        <!--Main Section with biography and image-->
-        <div>
-            <section>
-                <h1>Student Bio</h1>
-                
-                <h2>Melanie C. Rose</h2>
-                <img src="assets/images/Bio-Photo.jpg" style="width: 200px;" alt="My Image">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sequi, minus beatae praesentium vero molestiae, velit perspiciatis a officia cum veniam rerum mollitia qui porro. Quod neque, provident distinctio illum fugiat odio voluptas nihil cumque tempora corporis expedita tempore accusamus culpa temporibus earum fuga architecto non sit quam? Quod perferendis sunt quos in tempore distinctio minus dolore laborum beatae! Sint voluptatem tenetur dignissimos esse dolorem ipsa, velit minima adipisci consectetur vitae nobis facere at. Reiciendis, cupiditate sed! Nemo, facere nesciunt! Quasi quisquam deleniti voluptatibus quaerat necessitatibus earum vel deserunt a autem. Optio consequatur tenetur, maxime a possimus dolorem nam itaque.</p>
-                
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id illo fugiat deleniti tempore dolor consequatur amet, alias quaerat? Ut corrupti doloribus natus ea non. Vitae, omnis blanditiis amet magni dolorum illo excepturi expedita possimus minima veniam ad iste quam? Soluta voluptates placeat expedita ullam dicta mollitia aliquid, ipsa sapiente omnis, id consequuntur dolorem! Facilis voluptate deserunt, temporibus itaque numquam vel enim a porro, ipsam est tempora labore tempore asperiores? Perferendis voluptas repellat maiores et deserunt aspernatur? Dolore dolor expedita illum ipsam atque deserunt recusandae porro architecto libero magnam quae ex laudantium iure sapiente fugiat neque consequatur, voluptatibus velit! Soluta atque ullam maxime, aperiam velit in aut nisi dolorem ipsa vero natus illo praesentium, ea dolores quibusdam. Quas pariatur alias recusandae minima quisquam dolores ipsa saepe fugit, suscipit doloremque! Unde officiis necessitatibus voluptatibus sit laboriosam eaque provident, quis placeat voluptatem sequi. Reprehenderit deserunt eum saepe debitis ducimus libero fugit, optio recusandae?</p>
-            </section>
 
-            <br>
-            <!--Contact Information Section-->
+        <!--Header of Main page-->
+            <div>
+                <header id="mainHeader">
+                    <h1 id="aboutMeHeader">    
+                        Melanie C. Rose
+                    </h1>
+                </header>
+
+                <!--These links will float right and link to other pages-->
+                <div id="linkHandling">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>  
+            </div>  
+            <!--Main Section with biography and image-->
             <section>
-                <h2>Contact Information</h2>
-                <ul>
-                    <li><strong>Email:</strong><a href="mailto:melaniecrose68@gmail.com">melaniecrose68@gmail.com</a></li>
-                    <li><strong>GitHub:</strong><a href="https://github.com/sitara68">GitHub sitara68</a></li>
-                    <li><strong>Portfolio:</strong> COMING SOON!</li>
-                </ul>
+                <div id="meContent">
+                        
+                        <!--This section contains a couple of paragraphs about myself-->
+                    <h2 id="formatAbout">About Me</h2>
+                    
+                    <div id="borderLine">
+                        <img src="assets/images/Bio-Photo.jpg" style="width: 150px;" alt="My Image">
+                        <p>I was born in San Antonio, Texas on July 24, 1968, a year before the manned lunar landing. I have lived in the Houston, Texas area for over 20 years. I have one adult daughter and many firends. I have worked for a major electricity provider for the past 18 years and I am actively seeking a career in web development.</p>
+
+                        <p>Outside of coding, I enjoy knitting and photography. I used to camp and hike quite a bit and I am actively seeking to restart those endeavors. I have practiced yoga since the age of 12. While I have not done as much as I would like, I do enjoy travel. I have toured mainland Greece. Visited the city of London and the city of Paris. I have camped in the Arizona desert and the Grand Canyon. I have enjoyed the Carribean beaches in Jamaica and Mexico. Overall, I would consider Paris my favorite place to visit.</p> 
+                    </div>           
+                </div>
             </section>
-    </div>
+        
+        <footer>Copyright ©</footer>
+    
     </body>
-</html>
+</html> 
