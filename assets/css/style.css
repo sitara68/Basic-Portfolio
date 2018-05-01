@@ -14,7 +14,7 @@ div {
 
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 header {
@@ -39,6 +39,38 @@ img {
 
 section {
     clear: both;
+}
+
+label {
+    font-size: 20px;
+    color: #666666;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input[type=text], select {
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 30px 0;
+}
+
+#inputField {
+    width: 920px;
+}
+
+#inputMessage {
+    height: 300px;
+    width: 920px;
+}
+
+#buttonSubmit {
+
+    background-color: #4aaaa5;  
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 5px;
 }
 
 a {
@@ -78,9 +110,9 @@ footer {
     background-color: #4aaaa5;  
     color: white;
     font-weight: bold;
-    font-size: 35px;
     display: inline-block;
-    line-height: 75px;
+    line-height: 55px;
+    padding: 10px;
 }
 
 #linkHandling {
@@ -92,14 +124,15 @@ footer {
 
 #meContent {
     width: 960px;
+    height: auto;
     margin: auto;
 }
 
 #formatAbout {
     color: #4aaaa5;
     font-weight: bold;
-    font-size: 20px;
     text-decoration-color: #4aaaa5;
+    padding: 10px;
 }
 
 #borderLine {
@@ -107,6 +140,8 @@ footer {
     border-top-color: #666666;
     border-top-width: 3px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .clearfix::after { content: "";
