@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact</title>
+    <title>Contact | Melanie C. Rose</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
 </head>
 <body>
-
+<!--Navbar-->  
     <header>
-        <div id="headerWidth">
-            <h1 id="aboutMeHeader">    
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Melanie C. Rose
-            </h1>
-
-            <div id="linkHandling">
+            </a>
+            <div id="floatrightNav">
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
             </div>
-        </div>
+        </nav>
     </header>
-            <!--Main Section contact form-->
-            <section>
-            <div id="meContent">
-                <h2 id="formatAbout">Contact</h2>
-                <section>
-                <div id="borderLine">   
-                    <form>
 
-                        <label>Name</label>
-                        <br>
-                        <input type="text" id="inputField" name="name" placeholder="John Smith">
-                        <br>
-                        <label>Email</label>
-                        <br>
-                        <input type="text" id="inputField" name="name" placeholder="example@gmail.com">
-                        <br>
-                        <label>Message</label>
-                        <br>
-                        <input type="text" id="inputMessage" name="name">
-                        <br>
-                        <button id="buttonSubmit">Submit</button>
-                    </form>
-                </div>
-            </section>
-        </div>
-    </section>
-    <footer class="clearfix">Copyright ©</footer>    
+<!--Main Section with Contact Form-->
+<div id="main-container" class="container">
+    <section class="main-section">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+                </li>
+            </ul>
+            <button>Submit</button> 
+        </form>
+    </section>          
+</div>
+
+<footer>
+    <div class="container">Copyright ©2018</div>
+</footer>
 </body>
 </html>

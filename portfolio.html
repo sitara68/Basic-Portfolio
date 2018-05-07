@@ -3,46 +3,56 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Portfolio | Melanie C. Rose</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
-
+<!--Navbar-->  
     <header>
-        <div id="headerWidth">
-            <h1 id="aboutMeHeader">    
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Melanie C. Rose
-            </h1>
-
-            <div id="linkHandling">
+            </a>
+            <div id="floatrightNav">
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
             </div>
-        </div>
+        </nav>
     </header>
- 
-            <!--Main Section with biography and image-->
-            <section>
-                <div id="meContent">
-                        <div id="borderLine">   
-                        <!--This section contains a couple of paragraphs about myself-->
-                    <h2 id="formatAbout">Portfolio</h2>
-                        <div>
-                            <img src="http://lorempixel.com/output/nature-q-c-640-480-4.jpg" style="width: 150px;" alt="Site One">
-                            <img src="http://lorempixel.com/output/cats-q-c-640-480-8.jpg" style="width: 150px;" alt="Site Two">
-                        </div>
 
-                        <div>
-                            <img src="http://lorempixel.com/output/city-q-c-640-480-6.jpg" style="width: 150px;" alt="Site Three">
-                            <img src="http://lorempixel.com/output/technics-q-c-640-480-3.jpg" style="width: 150px;" alt="Site Four">
-                        </div>
-                    </div>           
-                </div>
-            </section>
+    <!--Main Section with Portfolio images-->
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+            <div class="work">
+                <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+                <h3>Word Guess</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+                <h3>RPG Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+                <h3>Trivia Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+                <h3>Rutgers Info Widget</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+        </section>          
+    </div>
         
-        <footer>Copyright ©</footer>    
+    <footer>
+        <div class="container">Copyright ©2018</div>
+    </footer>    
 </body>
 </html>
